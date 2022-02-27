@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
         title: 'Home',
         name: 'James Gabbitus'
     });
-})
+});
 
 app.get('/help', (req, res) => {
     res.render('help', {
